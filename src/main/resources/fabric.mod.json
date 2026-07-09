@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowclient",
+  "version": "${version}",
+  "name": "Shadow Client",
+  "description": "A clean lightweight client-side Fabric module menu for Minecraft 1.21.11.",
+  "authors": ["Shadow"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.shadowclient.ShadowClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
